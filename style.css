@@ -1,44 +1,73 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset básico */
+body, h1, p {
     margin: 0;
     padding: 0;
-    background-color: #4F4848;
+    box-sizing: border-box;
 }
 
+/* Estilo geral do corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Estilo do cabeçalho */
 header {
-    background-color: #333;
-    color: #4F4848;
-    padding: 10px 20px;
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Estilo do título do cabeçalho */
 header h1 {
-    margin: 0;
+    font-size: 2.5em;
+    font-weight: 700;
 }
 
+/* Estilo do conteúdo principal */
 main {
     padding: 20px;
 }
 
+/* Estilo do container de grid */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 10px;
+    gap: 15px;
 }
 
+/* Estilo dos itens do grid */
+.grid-item {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo das imagens dentro dos itens do grid */
 .grid-item img {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
 }
 
+/* Efeito de zoom nas imagens ao passar o mouse */
+.grid-item:hover img {
+    transform: scale(1.05);
+}
+
+/* Estilo do rodapé */
 footer {
-    background-color: #333;
-    color: #4F4848;
+    background-color: #444;
+    color: #fff;
     text-align: center;
-    padding: 10px 20px;
+    padding: 15px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
