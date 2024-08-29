@@ -8,14 +8,14 @@ body, h1, p {
 /* Estilo geral do corpo */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #e0e0e0; /* Cor de fundo cinza */
+    background-color: #4F4848; /* Cor de fundo cinza */
     color: #333;
 }
 
 /* Estilo do cabeçalho */
 header {
     background-color: #444;
-    color: #fff;
+    color: #4F4848;
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -41,7 +41,7 @@ main {
 
 /* Estilo dos itens do grid */
 .grid-item {
-    background-color: #fff;
+    background-color: #4F4848;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
