@@ -50,7 +50,7 @@ main {
 
 /* Estilo das imagens dentro dos itens do grid */
 .grid-item img {
-    width: 100%;
+    width: 85%;
     height: auto;
     display: block;
     transition: transform 0.3s ease-in-out;
