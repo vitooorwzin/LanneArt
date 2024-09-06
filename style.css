@@ -56,12 +56,13 @@ main {
     width: 85%;
     height: auto;
     display: block;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 /* Efeito de zoom nas imagens ao passar o mouse */
 .grid-item:hover img {
-    transform: scale(1.05);
+    transform: scale(1.1); /* Aumenta o zoom */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adiciona sombra ao redor da imagem */
 }
 
 /* Estilo do rodapé */
