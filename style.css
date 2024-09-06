@@ -35,7 +35,7 @@ main {
 /* Estilo do container de grid */
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, 1fr); /* Define 2 colunas */
     gap: 15px;
 }
 
@@ -46,6 +46,9 @@ main {
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: relative;
+    display: flex; /* Adiciona flexbox */
+    justify-content: center; /* Centraliza a imagem horizontalmente */
+    align-items: center; /* Centraliza a imagem verticalmente */
 }
 
 /* Estilo das imagens dentro dos itens do grid */
