@@ -53,7 +53,7 @@ main {
 
 /* Estilo das imagens dentro dos itens do grid */
 .grid-item img {
-    width: 85%;
+    width: 70%; /* Diminui o tamanho das imagens */
     height: auto;
     display: block;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
